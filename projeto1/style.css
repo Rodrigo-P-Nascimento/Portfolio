@@ -8,9 +8,39 @@ h1 {
     color: black;
 }
 h2 {
-    background-color: aliceblue;
-    color: rgb(67, 132, 78);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    margin: 0px;
 }
 p{
     text-align: justify;
+}
+
+ul{
+    margin: 0px;
+    list-style: none;
+    padding: 10px;
+}
+li{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+a{
+    text-decoration: none;
+
+    color: aliceblue;
+}
+
+.playstation{
+    background-color: #003399;
+}
+
+.xbox{
+    background-color: rgb(44,162,67);
+}
+
+.nintendo{
+    background-color: rgb(221,32,32);
 }
