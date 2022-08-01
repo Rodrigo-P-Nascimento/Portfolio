@@ -1,0 +1,16 @@
+@charset "URF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1 {
+    color: black;
+}
+h2 {
+    background-color: aliceblue;
+    color: rgb(67, 132, 78);
+}
+p{
+    text-align: justify;
+}
