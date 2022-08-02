@@ -29,18 +29,39 @@ li{
 
 a{
     text-decoration: none;
-
+    text-shadow: black 0.1em 0.1em 0.2em;
     color: aliceblue;
+}
+
+a:hover{ /*Quando passar o mouser por cima do link ele fica mais escuro*/
+    text-decoration: underline;
 }
 
 .playstation{
     background-color: #003399;
+    background-image: linear-gradient(to left,  #003399, transparent,  #010f2c);
 }
 
 .xbox{
     background-color: rgb(44,162,67);
+    background-image: linear-gradient(to left,  rgb(44,162,67), transparent,  rgb(4, 42, 11));
 }
 
 .nintendo{
     background-color: rgb(221,32,32);
+    background-image: linear-gradient(to left, rgb(221,32,32), transparent, rgb(66, 11, 11));
+}
+
+.pc{
+    background-color: #fcff50;
+    background-image: linear-gradient( to left, #fcff50, transparent, #5f600e);
+}
+
+.mobile{
+    background-color: rgb(163, 79, 192);
+    background-image: linear-gradient( to left, rgb(163, 79, 192), transparent, rgb(33, 8, 41)); 
+}
+
+img{
+    size: 100px 100px;
 }
