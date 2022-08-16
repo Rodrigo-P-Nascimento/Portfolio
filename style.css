@@ -1,0 +1,25 @@
+@charset "URF-8";
+
+/* 
+COR A: #22B5BA
+COR B: #2EF2FA
+COR C: #16777A
+COR D: #0B393B
+COR E: #28DAE0
+*/
+body{
+    background-color: #22B5BA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    padding: 7px;
+    border: 2px solid #2EF2FA;
+    border-radius: 5px;
+    background-color: #16777A;
+    
+}
