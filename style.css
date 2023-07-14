@@ -8,18 +8,129 @@ COR D: #0B393B
 COR E: #28DAE0
 */
 body{
-    background-color: #22B5BA;
-    font-family: Arial, Helvetica, sans-serif;
+    background: #0D1B2A;
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
 }
 
+#header{
+    /*Novamente definimos a largura da div*/
+    width:100%;
+    /* altura da div */
+    height:80px;
+    border: none;
+    border-bottom: 3px solid #FFF;
+    border-top: 3px solid #FFF;
+}
+#portifolioTitle{
+    color: #FFF;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
 
-a{
+#conteudo{
+    /*Novamente definimos a largura da div*/
+    width:100%;
+    /* altura da div */
+    height:100%;
+    /* Cor de fundo da div */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+#conteudo-perfil{
+    width: 323px;
+    height: 974px;
+    border-radius: 30px;
+    border: 3px solid #415A77;
+    background: #1B263B;
+    margin-right: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#devImage{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background: #ffffff;*/
+}
+
+#meImg{
+    width: 180px;
+    height: 180px;
+    border-radius: 50px;
+}
+
+#name{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+    padding-bottom: 10px;
+    border-bottom: #415A77 solid 3px;
+}
+
+#redesSociais{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.iconP{
+    width: 60px;
+    height: 60px;    
+}
+.linkP{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     text-decoration: none;
-    color: white;
-    text-shadow: 2px 2px 2px black;
-    padding: 7px;
-    border: 2px solid #2EF2FA;
-    border-radius: 5px;
-    background-color: #16777A;
-    
+    margin-left: 5px;
+}
+
+.linkP:hover{
+    font-size: 27px;
+    border-bottom: solid 3px aqua;
+}
+
+#conteudo-lateral{
+    width: 1440px;
+    height: 974px;
+    border-radius: 30px;
+    border: 3px solid #415A77;
+    background: #1B263B;
+}
+
+#footer{
+        width:100%;
+        height:40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-bottom: 3px solid #FFF;
+        border-top: 3px solid #FFF;
+        padding: 0px;
+        margin: 0px;
+}
+
+#rodape{
+    text-align: center;
 }
