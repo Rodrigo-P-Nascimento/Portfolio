@@ -113,6 +113,7 @@ body{
 #conteudo-lateral{
     width: 1440px;
     height: 974px;
+    overflow: hidden;
     border-radius: 30px;
     border: 3px solid #415A77;
     background: #1B263B;
@@ -141,8 +142,11 @@ body{
     position: absolute;
     left: 0;
     padding-left: 20px;
+    padding-right: 100px;
     display: none;
-    width: 100%;
+    width: 95%;
+
+    text-align: justify;
 }
 
 .infos [id^="part"]:checked~.content{
@@ -166,6 +170,17 @@ body{
     background-color: #415A77;
     font-size: 27px;
 
+}
+
+.ferramental li{
+    display: block;
+    list-style: circle;
+}
+
+
+h3{
+    padding-bottom: 5px;
+    border-bottom: solid 3px aqua;   
 }
 
 #footer{
