@@ -105,6 +105,23 @@ body{
     margin-left: 5px;
 }
 
+.linkC{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    border-bottom: solid 3px aqua;
+    margin-left: 5px;
+}
+
+.linkC:hover{
+    font-size: 27px;
+    color: aquamarine;
+}
+
 .linkP:hover{
     font-size: 27px;
     border-bottom: solid 3px aqua;
@@ -112,7 +129,7 @@ body{
 
 #conteudo-lateral{
     width: 1440px;
-    height: 974px;
+    height: 2000px;
     overflow: hidden;
     border-radius: 30px;
     border: 3px solid #415A77;
@@ -145,7 +162,6 @@ body{
     padding-right: 100px;
     display: none;
     width: 95%;
-
     text-align: justify;
 }
 
